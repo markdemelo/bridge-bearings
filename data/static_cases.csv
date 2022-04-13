@@ -1,0 +1,852 @@
+﻿Arup
+
+
+
+
+
+File WBBn_base_v48_base.gwb
+Exported 02/02/2021 21:48:50
+
+GSA 10.1.39.2 64-bit Copyright © Oasys 1985-2020
+
+Analysis Details
+
+Analysis Task 1
+
+START_TABLE Analysis Task 1
+,Name:,Static
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,30 : Stage 30: Final - remove deck temp. supports
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 1
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 1 Analysis Cases
+,Case,Name,Description,,Error norm
+,A1,Self Weight Bridge (upperbound),L1,,not calculated,
+,A2,Self Weight Bridge (lowerbound),L2,,not calculated,
+,A3,SW Arches,L3,,not calculated,
+,A4,SW MGs,L4,,not calculated,
+,A5,SW CGs,L5,,not calculated,
+,A6,SW CB,L6,,not calculated,
+,A7,SW Hangers,L7,,not calculated,
+,A8,SW Troughs,L8,,not calculated,
+,A9,SW Deck plate,L9,,not calculated,
+,A10,SW Springings,L10,,not calculated,
+,A11,Deck surfacing (upperbound),L11,,not calculated,
+,A12,Deck surfacing (lowerbound),L12,,not calculated,
+,A13,Barriers,L13,,not calculated,
+,A14,Furniture & drainage,L14,,not calculated,
+,A20,Wind x : Arch no traffic,L20,,not calculated,
+,A21,Wind x : Arch with traffic,L21,,not calculated,
+,A22,Wind x : Cross bracing no traffic,L22,,not calculated,
+,A23,Wind x : Cross bracing with traffic,L23,,not calculated,
+,A24,Wind x : Deck no traffic,L24,,not calculated,
+,A25,Wind x : Deck with traffic,L25,,not calculated,
+,A26,Wind y : Arch west no traffic,L26,,not calculated,
+,A27,Wind y : Arch east no traffic,L27,,not calculated,
+,A28,Wind y : Arch west with traffic,L28,,not calculated,
+,A29,Wind y : Arch east with traffic,L29,,not calculated,
+,A30,Wind y : Deck west no traffic,L30,,not calculated,
+,A31,Wind y : Deck east no traffic,L31,,not calculated,
+,A32,Wind y : Deck west with traffic,L32,,not calculated,
+,A33,Wind y : Deck east with traffic,L33,,not calculated,
+,A34,Wind z : Deck no traffic,L34,,not calculated,
+,A35,Wind z : Deck with traffic,L35,,not calculated,
+,A36,Wind x : Hangers no traffic,L36,,not calculated,
+,A37,Wind x : Hangers with traffic,L37,,not calculated,
+,A38,Wind y : Hangers no traffic,L38,,not calculated,
+,A39,Wind y : Hangers with traffic,L39,,not calculated,
+,A40,Temp: Uniform exp. +37.2,L40,,not calculated,
+,A41,Temp: Uniform cont. -40.8,L41,,not calculated,
+,A42,Temp: Deck +15,L42,,not calculated,
+,A43,Temp: Deck -6,L43,,not calculated,
+,A44,Temp: Arch Vert. +15,L44,,not calculated,
+,A45,Temp: Arch Hor. +5,L45,,not calculated,
+,A46,Temp: Hangers +10,L46,,not calculated,
+,A47,Temp: Hor. grad west +5,L47,,not calculated,
+,A48,Temp: Hor. grad east +5,L48,,not calculated,
+,A49,Temp: Arch uniform +15,L49,,not calculated,
+,A50,Temp: Arch Hor. east +5,L50,,not calculated,
+END_TABLE
+
+Analysis Task 2
+
+START_TABLE Analysis Task 2
+,Name:,Deck - prime temp supports
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,40 : Deck - prime temp supports
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 2
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 2 Analysis Cases
+,Case,Name,Description,,Error norm
+,A100,Deck - prime temp supports,L100,,not calculated,
+END_TABLE
+
+Analysis Task 3
+
+START_TABLE Analysis Task 3
+,Name:,Stage 01: Deck - pins at splice locations
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,1 : Stage 01: Deck - pins at splice locations
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 3
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 3 Analysis Cases
+,Case,Name,Description,,Error norm
+,A101,Stage 01: Deck - pins at splice locations,L101,,not calculated,
+END_TABLE
+
+Analysis Task 4
+
+START_TABLE Analysis Task 4
+,Name:,Stage 02: Deck - keep 2nd temp supports
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,2 : Stage 02: Deck - keep 2nd temp supports
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 4
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 4 Analysis Cases
+,Case,Name,Description,,Error norm
+,A102,Stage 02: Deck - keep 2nd temp supports,L102,,not calculated,
+END_TABLE
+
+Analysis Task 5
+
+START_TABLE Analysis Task 5
+,Name:,Stage 03: Arch - erect VI and X
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,3 : Stage 03: Arch - erect VI and X
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 5
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 5 Analysis Cases
+,Case,Name,Description,,Error norm
+,A103,Stage 03: Arch - erect VI and X,L103,,not calculated,
+END_TABLE
+
+Analysis Task 6
+
+START_TABLE Analysis Task 6
+,Name:,Stage 04: Arch - jack up to connect joints
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,4 : Stage 04: Arch - jack up to connect joints
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 6
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 6 Analysis Cases
+,Case,Name,Description,,Error norm
+,A104,Stage 04: Arch - jack up to connect joints,L104,,not calculated,
+END_TABLE
+
+Analysis Task 7
+
+START_TABLE Analysis Task 7
+,Name:,Stage 05: Arch - jack down to original position
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,5 : Stage 05: Arch - jack down to original position
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 7
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 7 Analysis Cases
+,Case,Name,Description,,Error norm
+,A105,Stage 05: Arch - jack down to original position,L105,,not calculated,
+END_TABLE
+
+Analysis Task 8
+
+START_TABLE Analysis Task 8
+,Name:,Stage 06: Arch - install portal and wind bracings
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,6 : Stage 06: Arch - install portal and wind bracings
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 8
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 8 Analysis Cases
+,Case,Name,Description,,Error norm
+,A106,Stage 06: Arch - install portal and wind bracings,L106,,not calculated,
+END_TABLE
+
+Analysis Task 9
+
+START_TABLE Analysis Task 9
+,Name:,Stage 07: Arch - erect VII and IX
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,7 : Stage 07: Arch - erect VII and IX
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 9
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 9 Analysis Cases
+,Case,Name,Description,,Error norm
+,A107,Stage 07: Arch - erect VII and IX,L107,,not calculated,
+END_TABLE
+
+Analysis Task 10
+
+START_TABLE Analysis Task 10
+,Name:,Stage 08: Arch - jack down to connect joints
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,8 : Stage 08: Arch - jack down to connect joints
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 10
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 10 Analysis Cases
+,Case,Name,Description,,Error norm
+,A108,Stage 08: Arch - jack down to connect joints,L108,,not calculated,
+END_TABLE
+
+Analysis Task 11
+
+START_TABLE Analysis Task 11
+,Name:,Stage 09: Arch - jack up to original position
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,9 : Stage 09: Arch - jack up to original position
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 11
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 11 Analysis Cases
+,Case,Name,Description,,Error norm
+,A109,Stage 09: Arch - jack up to original position,L109,,not calculated,
+END_TABLE
+
+Analysis Task 12
+
+START_TABLE Analysis Task 12
+,Name:,Stage 10: Arch - install wind bracings
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,10 : Stage 10: Arch - install wind bracings
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 12
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 12 Analysis Cases
+,Case,Name,Description,,Error norm
+,A110,Stage 10: Arch - install wind bracings,L110,,not calculated,
+END_TABLE
+
+Analysis Task 13
+
+START_TABLE Analysis Task 13
+,Name:,Stage 11: Arch - erect VIII
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,11 : Stage 11: Arch - erect VIII
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 13
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 13 Analysis Cases
+,Case,Name,Description,,Error norm
+,A111,Stage 11: Arch - erect VIII,L111,,not calculated,
+END_TABLE
+
+Analysis Task 14
+
+START_TABLE Analysis Task 14
+,Name:,Stage 12: Arch - jack up/down to connect joints
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,12 : Stage 12: Arch - jack up/down to connect joints
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 14
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 14 Analysis Cases
+,Case,Name,Description,,Error norm
+,A112,Stage 12: Arch - jack up/down to connect joints,L112,,not calculated,
+END_TABLE
+
+Analysis Task 15
+
+START_TABLE Analysis Task 15
+,Name:,Stage 13: Arch - jack down/up to original position
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,13 : Stage 13: Arch - jack down/up to original position
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 15
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 15 Analysis Cases
+,Case,Name,Description,,Error norm
+,A113,Stage 13: Arch - jack down/up to original position,L113,,not calculated,
+END_TABLE
+
+Analysis Task 16
+
+START_TABLE Analysis Task 16
+,Name:,Stage 14: Arch - install wind bracings
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,14 : Stage 14: Arch - install wind bracings
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 16
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 16 Analysis Cases
+,Case,Name,Description,,Error norm
+,A114,Stage 14: Arch - install wind bracings,L114,,not calculated,
+END_TABLE
+
+Analysis Task 17
+
+START_TABLE Analysis Task 17
+,Name:,Stage 15: Arch - remove arch and 2nd deck temp supports
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,15 : Stage 15: Arch - remove arch and 2nd temp supports
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 17
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 17 Analysis Cases
+,Case,Name,Description,,Error norm
+,A115,Stage 15: Arch - remove arch and 2nd deck temp supports,L115,,not calculated,
+END_TABLE
+
+Analysis Task 18
+
+START_TABLE Analysis Task 18
+,Name:,Stage 16-29: Self-weight of hangers
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,29 : Stage 29: Hanger - install hangers 306 307
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 18
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 18 Analysis Cases
+,Case,Name,Description,,Error norm
+,A116,Self-weight of hangers,L116,,not calculated,
+END_TABLE
+
+Analysis Task 19
+
+START_TABLE Analysis Task 19
+,Name:,Stage 30: remove deck prime supports
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,30 : Stage 30: Final - remove deck temp. supports
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 19
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 19 Analysis Cases
+,Case,Name,Description,,Error norm
+,A117,Romove deck prime temp supports,L117,,not calculated,
+END_TABLE
+
+Analysis Task 20
+
+START_TABLE Analysis Task 20
+,Name:,Cable Tuning
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Stage:,30 : Stage 30: Final - remove deck temp. supports
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 20
+,Solution method:,Sparse Parallel Direct
+,Degree of freedom ordering:,Minimum degree ordering
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,centre only
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 20 Analysis Cases
+,Case,Name,Description,,Error norm
+,A118,Cable Tunning 293-313,L60,,not calculated,
+,A119,Cable Tunning 292-312,L61,,not calculated,
+,A120,Cable Tunning 291-311,L62,,not calculated,
+,A121,Cable Tunning 290-310,L63,,not calculated,
+,A122,Cable Tunning 289-309,L64,,not calculated,
+,A123,Cable Tunning 288-308,L65,,not calculated,
+,A124,Cable Tunning 287-307,L66,,not calculated,
+,A125,Cable Tunning 286-306,L67,,not calculated,
+,A126,Cable Tunning 285-305,L68,,not calculated,
+,A127,Cable Tunning 284-304,L69,,not calculated,
+,A128,Cable Tunning 283-303,L70,,not calculated,
+,A129,Cable Tunning 282-302,L71,,not calculated,
+,A130,Cable Tunning 281-301,L72,,not calculated,
+,A131,Cable Tunning 280-300,L73,,not calculated,
+END_TABLE
+
+Analysis Task 21
+
+START_TABLE Analysis Task 21
+,Name:,Mass
+,Solver:,GSS GSS 52.2.39.2 64-bit Mass
+,Stage:,Whole model
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+,No. iterations:,128
+,Mass option:,Element mass (for elements other than mass elements) is ignored 
+,Mass derived from loads:
+,,1(L7) in Z
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 21
+,Solution method:,Sparse Parallel Direct
+,Front vector:,"(0.000,0.000,0.000)"
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,all points
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 21 Analysis Cases
+,Case,Name,Description,,Error norm
+,A132,Mass : Mass,Mass,,not calculated,
+,A133,Mass : Mass,Mass,,not calculated,
+END_TABLE
+

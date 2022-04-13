@@ -1,0 +1,316 @@
+{
+    "factors":
+    {
+        "reaction_factors": 
+        {
+            "ULS": 
+            {
+                "uls_1":
+                {
+                    "name": "ULS_6.10a_perm_max",
+                    "type": "ULS",
+                    "G": 1.4,
+                    "LM1": 1.2,
+                    "W": 1.32,
+                    "T": 1.32
+                },
+                "uls_2": 
+                {
+                    "name": "ULS_6.10b_traffic_max",
+                    "type": "ULS",
+                    "G": 1.25,
+                    "LM1": 1.5,
+                    "W": 1.32,
+                    "T": 1.32
+                },
+                "uls_3": 
+                {
+                    "name": "ULS_6.10b_wind_max",
+                    "type": "ULS",
+                    "G": 1.25,
+                    "LM1": 1.2,
+                    "W": 1.65,
+                    "T": 1.32,
+                },
+                "uls_4": 
+                {
+                    "name": "ULS_6.10b_temp_max",
+                    "type": "ULS",
+                    "G": 1.25,
+                    "LM1": 1.2,
+                    "W": 1.32,
+                    "T": 1.65,
+                },
+                "uls_5": 
+                {
+                    "name": "ULS_6.10a_perm_min",
+                    "type": "ULS",
+                    "G": 0.9,
+                    "LM1": 1.2,
+                    "W": 1.32,
+                    "T": 1.32,
+                },
+                "uls_6": 
+                {
+                    "name": "ULS_6.10b_traffic_min",
+                    "type": "ULS",
+                    "G": 0.9,
+                    "LM1": 1.5,
+                    "W": 1.32,
+                    "T": 1.32
+                },
+                "uls_7": 
+                {
+                    "name": "ULS_6.10b_wind_min",
+                    "type": "ULS",
+                    "G": 0.9,
+                    "LM1": 1.2,
+                    "W": 1.65,
+                    "T": 1.32
+                },
+                "uls_8": 
+                {
+                    "name": "ULS_6.10b_temp_min",
+                    "type": "ULS",
+                    "G": 0.9,
+                    "LM1": 1.2,
+                    "W": 1.32,
+                    "T": 1.65
+                }
+            },
+        
+            "SLS":
+            {
+                "sls_1": 
+                {
+                    "name": "SLS_6.10a_perm",
+                    "type": "SLS",
+                    "G": 1,
+                    "LM1": 0.8,
+                    "W": 0.8,
+                    "T": 0.8
+                },
+                "sls_2": 
+                {
+                    "name": "SLS_6.10b_traffic",
+                    "type": "SLS",
+                    "G": 1,
+                    "LM1": 1,
+                    "W": 0.8,
+                    "T": 0.8
+                },
+                "sls_3": 
+                {
+                    "name": "SLS_6.10b_wind",
+                    "type": "SLS",
+                    "G": 1,
+                    "LM1": 0.8,
+                    "W": 1,
+                    "T": 0.8
+                },
+                "sls_4": 
+                {
+                    "name": "SLS_6.10b_temp",
+                    "type": "SLS",
+                    "G": 1,
+                    "LM1": 0.8,
+                    "W": 0.8,
+                    "T": 1
+                },
+                "sls_5": 
+                {
+                    "name": "SLS_6.10a_perm",
+                    "type": "SLS",
+                    "G": 1,
+                    "LM1": 0.8,
+                    "W": 0.8,
+                    "T": 0.8
+                },
+                "sls_6": 
+                {
+                    "name": "SLS_6.10b_traffic",
+                    "type": "SLS",
+                    "G": 1,
+                    "LM1": 1,
+                    "W": 0.8,
+                    "T": 0.8
+                },
+                "sls_7": 
+                {
+                    "name": "SLS_6.10b_wind",
+                    "type": "SLS",
+                    "G": 1,
+                    "LM1": 0.8,
+                    "W": 1,
+                    "T": 0.8,
+                },
+                "sls_8": 
+                {
+                    "name": "SLS_6.10b_temp",
+                    "type": "SLS",
+                    "G": 1,
+                    "LM1": 0.8,
+                    "W": 0.8,
+                    "T": 1
+                },
+            }
+        },
+
+        "disp_factors": 
+        {
+            "ULS":
+            {
+                "uls_1": 
+                {
+                    "name": "ULS_6.10a_perm_max",
+                    "type": "ULS",
+                    "G": 1.4,
+                    "G_rev": 1.4,
+                    "LM1": 1.2,
+                    "W": 1.32,
+                    "T": 0.88
+                },
+                "uls_2": 
+                {
+                    "name": "ULS_6.10b_traffic_max",
+                    "type": "ULS",
+                    "G": 1.25,
+                    "G_rev": 1.25,
+                    "LM1": 1.5,
+                    "W": 1.32,
+                    "T": 0.88
+                },
+                "uls_3": {
+                    "name": "ULS_6.10b_wind_max",
+                    "type": "ULS",
+                    "G": 1.25,
+                    "G_rev": 1.25,
+                    "LM1": 1.2,
+                    "W": 1.65,
+                    "T": 0.88
+                },
+                "uls_4": {
+                    "name": "ULS_6.10b_temp_max",
+                    "type": "ULS",
+                    "G": 1.25,
+                    "G_rev": 1.25,
+                    "LM1": 1.2,
+                    "W": 1.32,
+                    "T": 1.1
+                },
+                "uls_5": {
+                    "name": "ULS_6.10a_perm_min",
+                    "type": "ULS",
+                    "G": 0.9,
+                    "G_rev": 0.9,
+                    "LM1": 1.2,
+                    "W": 1.32,
+                    "T": 0.88
+                },
+                "uls_6": {
+                    "name": "ULS_6.10b_traffic_min",
+                    "type": "ULS",
+                    "G": 0.9,
+                    "G_rev": 0.9,
+                    "LM1": 1.5,
+                    "W": 1.32,
+                    "T": 0.88
+                },
+                "uls_7": {
+                    "name": "ULS_6.10b_wind_min",
+                    "type": "ULS",
+                    "G": 0.9,
+                    "G_rev": 0.9,
+                    "LM1": 1.2,
+                    "W": 1.65,
+                    "T": 0.88
+                },
+                "uls_8": {
+                    "name": "ULS_6.10b_temp_min",
+                    "type": "ULS",
+                    "G": 0.9,
+                    "G_rev": 0.9,
+                    "LM1": 1.2,
+                    "W": 1.32,
+                    "T": 1.1
+                }
+            },                 
+            
+            "SLS": 
+            {
+                "sls_1": {
+                    "name": "SLS_6.10a_perm",
+                    "type": "SLS",
+                    "G": 1,
+                    "G_rev": 1,
+                    "LM1": 0.8,
+                    "W": 0.8,
+                    "T": 0.8
+                },
+                "sls_2": {
+                    "name": "SLS_6.10b_traffic",
+                    "type": "SLS",
+                    "G": 1,
+                    "G_rev": 1,
+                    "LM1": 1,
+                    "W": 0.8,
+                    "T": 0.8
+                },
+                "sls_3": {
+                    "name": "SLS_6.10b_wind",
+                    "type": "SLS",
+                    "G": 1,
+                    "G_rev": 1,
+                    "LM1": 0.8,
+                    "W": 1,
+                    "T": 0.8
+                },
+                "sls_4": {
+                    "name": "SLS_6.10b_temp",
+                    "type": "SLS",
+                    "G": 1,
+                    "G_rev": 1,
+                    "LM1": 0.8,
+                    "W": 0.8,
+                    "T": 1
+                },
+                "sls_5": {
+                    "name": "SLS_6.10a_perm",
+                    "type": "SLS",
+                    "G": 1,
+                    "G_rev": 1,
+                    "LM1": 0.8,
+                    "W": 0.8,
+                    "T": 0.8
+                },
+                "sls_6": {
+                    "name": "SLS_6.10b_traffic",
+                    "type": "SLS",
+                    "G": 1,
+                    "G_rev": 1,
+                    "LM1": 1,
+                    "W": 0.8,
+                    "T": 0.8
+                },
+                "sls_7": {
+                    "name": "SLS_6.10b_wind",
+                    "type": "SLS",
+                    "G": 1,
+                    "G_rev": 1,
+                    "LM1": 0.8,
+                    "W": 1,
+                    "T": 0.8
+                },
+                "sls_8": {
+                    "name": "SLS_6.10b_temp",
+                    "type": "SLS",
+                    "G": 1,
+                    "G_rev": 1,
+                    "LM1": 0.8,
+                    "W": 0.8,
+                    "T": 1
+                }
+            }         
+        }
+    }
+}

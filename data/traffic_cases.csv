@@ -1,0 +1,121 @@
+﻿Arup
+
+
+
+
+
+File WBBn_base_v48_traffic (Node effects)_solved.gwb
+Exported 03/02/2021 16:30:31
+
+GSA 10.1.39.2 64-bit Copyright © Oasys 1985-2020
+
+Analysis Details
+
+Analysis Task 1
+
+START_TABLE Analysis Task 1
+,Name:,Static
+,Solver:,GSS GSS 52.2.39.2 64-bit Static
+,Status:,post-analysis (Analysed: 13 January 2021)
+,Condition no.:,not calculated
+
+,Advanced:
+END_TABLE
+
+START_TABLE Analysis Task 1
+,Solution method:,Sparse Parallel Direct
+,Front vector:,"(0.000,0.000,0.000)"
+,Limiting minimum:maximum stiffness ratio:,0.000
+,Minimum stiffness distinguished from zero:,0.000
+,Calculate error norm:,Yes
+,Calculate condition number:,Yes
+,Results at:,all points
+,Plate formulation:,MITC
+,In-plane formulation:,Allman-Cook (includes zz dof)
+,Geometry based automatic constraints
+
+,Flatness parameter:,0.001
+,Zero stiffness value:,0.000
+,Treat geometry check failures as:,Errors
+
+END_TABLE
+
+,Analysis Cases
+
+START_TABLE Analysis Task 1 Analysis Cases
+,Case,Name,Description,,Error norm
+,A1,NIE1(Max)Char,L2,,not calculated,
+,A2,NIE1(Min)Char,L3,,not calculated,
+,A3,NIE2(Max)Char,L4,,not calculated,
+,A4,NIE2(Min)Char,L5,,not calculated,
+,A5,NIE3(Max)Char,L6,,not calculated,
+,A6,NIE3(Min)Char,L7,,not calculated,
+,A7,NIE4(Max)Char,L8,,not calculated,
+,A8,NIE4(Min)Char,L9,,not calculated,
+,A9,NIE5(Max)Char,L10,,not calculated,
+,A10,NIE5(Min)Char,L11,,not calculated,
+,A11,NIE6(Max)Char,L12,,not calculated,
+,A12,NIE6(Min)Char,L13,,not calculated,
+,A13,NIE7(Max)Char,L14,,not calculated,
+,A14,NIE7(Min)Char,L15,,not calculated,
+,A15,NIE8(Max)Char,L16,,not calculated,
+,A16,NIE8(Min)Char,L17,,not calculated,
+,A17,NIE9(Max)Char,L18,,not calculated,
+,A18,NIE9(Min)Char,L19,,not calculated,
+,A19,NIE10(Max)Char,L20,,not calculated,
+,A20,NIE10(Min)Char,L21,,not calculated,
+,A21,NIE11(Max)Char,L22,,not calculated,
+,A22,NIE11(Min)Char,L23,,not calculated,
+,A23,NIE12(Max)Char,L24,,not calculated,
+,A24,NIE12(Min)Char,L25,,not calculated,
+,A25,NIE13(Max)Char,L26,,not calculated,
+,A26,NIE13(Min)Char,L27,,not calculated,
+,A27,NIE14(Max)Char,L28,,not calculated,
+,A28,NIE14(Min)Char,L29,,not calculated,
+,A29,NIE15(Max)Char,L30,,not calculated,
+,A30,NIE15(Min)Char,L31,,not calculated,
+,A31,NIE16(Max)Char,L32,,not calculated,
+,A32,NIE16(Min)Char,L33,,not calculated,
+,A33,NIE17(Max)Char,L34,,not calculated,
+,A34,NIE17(Min)Char,L35,,not calculated,
+,A35,NIE18(Min)Char,L36,,not calculated,
+,A36,NIE19(Max)Char,L37,,not calculated,
+,A37,NIE19(Min)Char,L38,,not calculated,
+,A38,NIE20(Max)Char,L39,,not calculated,
+,A39,NIE20(Min)Char,L40,,not calculated,
+,A40,NIE21(Max)Char,L41,,not calculated,
+,A41,NIE21(Min)Char,L42,,not calculated,
+,A42,NIE22(Max)Char,L43,,not calculated,
+,A43,NIE22(Min)Char,L44,,not calculated,
+,A44,NIE23(Max)Char,L45,,not calculated,
+,A45,NIE23(Min)Char,L46,,not calculated,
+,A46,NIE24(Min)Char,L47,,not calculated,
+,A47,NIE25(Max)Char,L48,,not calculated,
+,A48,NIE25(Min)Char,L49,,not calculated,
+,A49,NIE26(Max)Char,L50,,not calculated,
+,A50,NIE26(Min)Char,L51,,not calculated,
+,A51,NIE27(Max)Char,L52,,not calculated,
+,A52,NIE27(Min)Char,L53,,not calculated,
+,A53,NIE28(Max)Char,L54,,not calculated,
+,A54,NIE28(Min)Char,L55,,not calculated,
+,A55,NIE29(Max)Char,L56,,not calculated,
+,A56,NIE29(Min)Char,L57,,not calculated,
+,A57,NIE30(Max)Char,L58,,not calculated,
+,A58,NIE30(Min)Char,L59,,not calculated,
+,A59,NIE31(Max)Char,L60,,not calculated,
+,A60,NIE31(Min)Char,L61,,not calculated,
+,A61,NIE32(Max)Char,L62,,not calculated,
+,A62,NIE32(Min)Char,L63,,not calculated,
+,A63,NIE33(Max)Char,L64,,not calculated,
+,A64,NIE33(Min)Char,L65,,not calculated,
+,A65,NIE34(Max)Char,L66,,not calculated,
+,A66,NIE34(Min)Char,L67,,not calculated,
+,A67,NIE35(Max)Char,L68,,not calculated,
+,A68,NIE35(Min)Char,L69,,not calculated,
+,A69,NIE36(Max)Char,L70,,not calculated,
+,A70,NIE36(Min)Char,L71,,not calculated,
+,A71,NIE37(Max)Char,L72,,not calculated,
+,A72,NIE38(Max)Char,L73,,not calculated,
+,A73,NIE38(Min)Char,L74,,not calculated,
+END_TABLE
+
